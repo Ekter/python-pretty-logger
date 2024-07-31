@@ -14,7 +14,7 @@ Example:
     col.default("This is a default message.", "With multiple arguments.")
 """
 
-from col import (
+from .col import (
     set_cont,
     error,
     warning,
